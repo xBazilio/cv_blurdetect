@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( cv_blurdetect )
+find_package( OpenCV REQUIRED )
+add_executable( cv_blurdetect main.cpp )
+target_link_libraries( cv_blurdetect ${OpenCV_LIBS} )
