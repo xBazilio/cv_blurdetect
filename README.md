@@ -8,5 +8,5 @@ cmake . && make
 
 # use
 ```bash
-    if `./cv_blurdetect myimage.jpg`; then echo "blurry"; else echo "sharp"; fi
+if `./cv_blurdetect myimage.jpg`; then echo "blurry"; else echo "sharp"; fi
 ```
